@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de pago</title>
+    <!-- Preconnects -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- JavaScript -->
+    <script src="alive.js" charset="utf-8" type="module"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="checkout-page-master/devchallenges.png" type="image/x-icon">
+    <!-- Íconos -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="main">
+        <h1>Pagar</h1>
+        <!-- Mercancía -->
+        <aside class="ware">
+            <div class="ware__item">
+                <figure class="item__figure">
+                    <img class="item__img" src="checkout-page-master/photo1.png" alt="Bolso vintage" />
+                    <figcaption class="item__figure__figcaption">Bolso vintage</figcaption>
+                    <p class="item__figure__price"><span class="figure__price--off">$54.99</span> <span class="figure__price--crossed">$94.99</span></p>
+                    <div class="item__cont__btns">
+                        <button class="item__btn item__btn--minus" type="button"><i class="material-icons">remove</i></button>
+                        <label class="ware__hide-label" for="backbag-qty">Escoge la cantidad de bolsos vintage que deseas comprar</label>
+                        <input type="number" name="backbag-qty" id="backbag-qty" class="ware__input ware__input--item-1" min="1" value="1" />
+                        <button class="item__btn item__btn--plus" type="button"><i class="material-icons">add</i></button>
+                    </div>
+                </figure>
+            </div>
+            <div class="ware__item">
+                <figure class="item__figure item__figure--second">
+                    <img class="item__img" src="checkout-page-master/photo2.png" alt="Zapatos Levi" />
+                    <figcaption class="item__figure__figcaption">Zapatos Levi</figcaption>
+                    <p class="item__figure__price"><span class="figure__price--off">$74.99</span> <span class="figure__price--crossed">$124.99</span></p>
+                    <div class="item__cont__btns">
+                        <button class="item__btn item__btn--minus" type="button"><i class="material-icons">remove</i></button>
+                        <label class="ware__hide-label" for="shoes-qty">Escoge la cantidad de pares de zapatos Levi que deseas comprar</label>
+                        <input type="number" name="shoes-qty" id="shoes-qty" class="ware__input ware__input--item-2" min="1" value="1" />
+                        <button class="item__btn item__btn--plus" type="button"><i class="material-icons">add</i></button>
+                    </div>
+                </figure>
+            </div>
+            <p class="global__price global__price--shipping"><span>Shipping</span> <span>$19</span></p>
+            <p class="global__price"><span>Total</span> <span class="quantity__total">$148.98</span></p>
+        </aside>
+        <!-- Formulario -->
+        <form class="form">
+            <!-- Información de contacto -->
+            <fieldset class="fieldset fieldset--contact">
+                <legend class="legend">Información de contacto</legend>
+                <label class="label" for="e-mail">Correo electrónico</label>
+                <p class="field field--text">
+                    <i class="material-icons form__icons">email</i>
+                    <input type="email" name="e-mail" id="e-mail" class="input input--text" placeholder="Introduce tu correo electrónico..." required />
+                </p>
+                <label class="label" for="phone-num">Teléfono</label>
+                <p class="field field--text">
+                    <i class="material-icons form__icons">phone</i>
+                    <input type="tel" name="phone-number" id="phone-num" class="input input--text" placeholder="Introduce tu teléfono..." maxlength="14" pattern="\(\w{3}\) \w{3}[ -]\w{4}" title="Un número de teléfono válido tiene los tres primeros números entre paréntesis seguidos de un espacio, tres números seguidos de un espacio o guión y los últimos cuatro números. Además, evita poner el código de tu país." required />
+                </p>
+            </fieldset>
+
+            <!-- Dirección de envío -->
+            <fieldset class="fieldset">
+                <legend class="legend">Dirección de envío</legend>
+                <label class="label" for="f-name">Nombre completo</label>
+                <p class="field field--text">
+                    <i class="material-icons form__icons">account_circle</i>
+                    <input type="text" name="full-name" id="f-name" class="input input--text" placeholder="Tu nombre completo..." required />
+                </p>
+
+                <label class="label" for="address">Dirección</label>
+                <p class="field field--text">
+                    <i class="material-icons form__icons">home</i>
+                    <input type="text" name="address" id="address" class="input input--text" placeholder="Tu dirección..." required />
+                </p>
+
+                <label class="label" for="city">Ciudad</label>
+                <p class="field field--text">
+                    <i class="material-icons form__icons">location_city</i>
+                    <input type="text" name="loc-city" id="city" class="input input--text" placeholder="Tu ciudad..." required />
+                </p>
+
+                <div class="container-address-country">
+                    <div>
+                        <label class="label label__shipping--country" for="country">País</label>
+                        <div class="content-field__shipping--country">
+                            <p class="field field__shipping--country">
+                                <i class="material-icons form__icons">public</i>
+                                <select name="select-country" id="country" class="input select__shipping">
+                                    <option value="" selected>Tu país...</option>
+                                    <option value="AUSTRALIA">Australia</option>
+                                    <option value="USA">Estados Unidos</option>
+                                    <option value="JAPON">Japón</option>
+                                    <option value="UK">Reino Unido</option>
+                                    <option value="SUDAFRICA">Sudáfrica</option>
+                                    <option value="VENEZUELA">Venezuela</option>
+                                </select>
+                                <i class="material-icons icon--select">expand_more</i>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="label label__shipping--zipCode" for="zip-code">Código postal</label>
+                        <p class="field field--text field__shipping--zipCode">
+                            <i class="material-icons form__icons">markunread_mailbox</i>
+                            <input type="text" name="postal-code" id="zip-code" class="input input--text" placeholder="Tu código postal..." minlength="3" required />
+                        </p>
+                    </div>
+                </div>
+            </fieldset>
+            <!-- Checkbox para guardar info -->
+            <p class="field field__saveInfo">
+                <input type="checkbox" name="s-info" id="save-info" class="saveInfo--pointer" />
+                <label class="label label__saveInfo saveInfo--pointer" for="save-info">Guardar esta información para la próxima vez</label>                
+            </p>
+            <!-- Botón de envío -->
+            <div class="container__form__btn">
+                <button type="submit" class="form__btn">Continuar</button>
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <p>Creado por <a target="blank" class="footer__link">Javier Valeriano</a></p>
+    </footer>
+</body>
+</html>
