@@ -480,6 +480,11 @@ input[type=checkbox] {
 
     .field--text {
         margin-bottom: 1.05rem;
+        padding: .95rem .7rem;
+    }
+
+    .field__shipping--country {
+        padding: .95rem .7rem;
     }
 
     .field__saveInfo {
