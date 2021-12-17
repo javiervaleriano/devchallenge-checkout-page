@@ -97,14 +97,14 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [Selectores CSS avanzados](https://lenguajecss.com/css/selectores/selectores-avanzados/)
 - [Object.freeze()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
 - [Object.isFrozen()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/isFrozen)
-- (Sobre cómo usar px, em, rem y % en "Responsive Design")[https://abalozz.es/sobre-como-usar-px-em-rem-y-percent-en-responsive-design/]
-- (Tachado con CSS)[https://desarrolloweb.com/faq/tachado-css]
-- (¿Cómo dar estilo al Input type number?)[https://www.creatuwebnicaragua.com/como-dar-estilo-al-input-type-number/]
-- (pointer-events)[https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events]
-- (cursor)[https://developer.mozilla.org/es/docs/Web/CSS/cursor]
-- (HTMLElement.focus())[https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus]
-- (::placeholder)[https://developer.mozilla.org/es/docs/Web/CSS/::placeholder]
-- (Personalizar un Select con CSS)[https://www.antofernandez.com/personalizar-un-select-con-css/#logo]
+- [Sobre cómo usar px, em, rem y % en "Responsive Design"](https://abalozz.es/sobre-como-usar-px-em-rem-y-percent-en-responsive-design/)
+- [Tachado con CSS](https://desarrolloweb.com/faq/tachado-css)
+- [¿Cómo dar estilo al Input type number?](https://www.creatuwebnicaragua.com/como-dar-estilo-al-input-type-number/)
+- [pointer-events](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events)
+- [cursor](https://developer.mozilla.org/es/docs/Web/CSS/cursor)
+- [HTMLElement.focus()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus)
+- [::placeholder](https://developer.mozilla.org/es/docs/Web/CSS/::placeholder)
+- [Personalizar un Select con CSS](https://www.antofernandez.com/personalizar-un-select-con-css/#logo)
 
 
 ## Contact | Contacto
