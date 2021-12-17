@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/YtQEieJxZ51u9eSlofm0">
       Solution / Solución
     </a>
     <span> | </span>
@@ -44,8 +44,8 @@
 <img src="./screenshots/Mobile_ss.png" alt="mobile view 1 | vista móvil 1" width="300" height="auto" />
 <img src="./screenshots/Mobile_ss(1).png" alt="mobile view 2 | vista móvil 2" width="300" height="auto" />
 
-Hello everyone, I hope you are well. This is my [solution]() to [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) from Devchallenges.io |
-Hola a todos, espero que estén bien. Esta es mi [solución]() al [desafío](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) de Devchallenges.io
+Hello everyone, I hope you are well. This is my [solution](https://devchallenges.io/solutions/YtQEieJxZ51u9eSlofm0) to [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) from Devchallenges.io |
+Hola a todos, espero que estén bien. Esta es mi [solución](https://devchallenges.io/solutions/YtQEieJxZ51u9eSlofm0) al [desafío](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) de Devchallenges.io
 
 Here you can see my [demo](https://javiervaleriano.github.io/devchallenge-checkout-page/). | Aquí pueden ver mi [demo](https://javiervaleriano.github.io/devchallenge-checkout-page/).
 
